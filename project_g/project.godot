@@ -16,8 +16,21 @@ _global_script_class_icons={
 [application]
 
 config/name="project_g"
+run/main_scene="res://World.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/height=800
+
+[physics]
+
+2d/cell_size=16
 
 [rendering]
 
 environment/default_environment="res://default_env.tres"
+
+[world]
+
+2d/cell_size=10
